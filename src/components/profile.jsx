@@ -26,10 +26,6 @@ export default function Profile() {
                                 <span className="text-orange-500 font-medium"> Flutter</span>, and 
                                 <span className="text-orange-500 font-medium"> Competitive Programming</span>.I'm passionate about creating impactful applications and solving real-world problems through clean and efficient code.
                             </p>
-                            <p className="flex items-center gap-2 text-orange-500 text-sm md:text-base">
-                                <FontAwesomeIcon icon={faLocationDot} />
-                                Based in Cairo, Egypt - Open to remote, freelance, part-time, or full-time opportunities.
-                            </p>
                         </div>
                         <Skills />
                     </div>
