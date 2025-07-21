@@ -13,7 +13,7 @@ export default function ProjectDetails({ project, onBack, type }) {
                 <div className="flex flex-col lg:flex-row gap-8 max-mad:gap-4">
                     <div className="lg:w-[50%] space-y-6">
                         <div className="relative rounded-2xl overflow-hidden border border-white/10">
-                        <img src={project.image} alt="" className="w-auto h-auto"/>
+                        <img src={project.image} alt="" className="w-auto h-auto min-h-[200px]"/>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <div className="translate-y-4 hover:translate-y-0 transition-transform duration-300">
                                 <h3 className="text-xl font-semibold">{project.name}</h3>
