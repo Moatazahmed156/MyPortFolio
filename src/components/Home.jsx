@@ -6,9 +6,9 @@ export default function Home(){
                 <div className="relative w-full lg:w-2/5 h-64 lg:h-96 flex items-center justify-center group">
                     <div className="relative w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80">
                         <div className="absolute inset-0 border-2 border-red-500 rounded-2xl transform rotate-3 transition-all duration-700 group-hover:rotate-4 group-hover:scale-[1.02] shadow-md shadow-yellow-500/50 backdrop-blur-[1px]"></div>
-                        <div className="absolute inset-0 bg-gray-800/30 rounded-2xl shadow-lg overflow-hidden transform -rotate-2 transition-all duration-700 group-hover:-rotate-3 group-hover:shadow-indigo-500/40">
+                        <div className="absolute inset-0 bg-gray-800/30 rounded-2xl shadow-lg overflow-hidden transform -rotate-2 transition-all duration-700 group-hover:-rotate-3 group-hover:shadow-indigo-500/20">
                             <img src={me} alt="Portrait of Moataz Ahmed"  className="object-cover rounded-2xl grayscale-[15%] group-hover:grayscale-0 transition-all duration-500" />
-                            <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-orange-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         </div>
                     </div>
                 </div>
