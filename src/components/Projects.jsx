@@ -11,16 +11,16 @@ export default function ProjectsScreen() {
 
 
   return (
-    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-6 md:p-8 overflow-y-auto">
+    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-2 md:p-8 overflow-y-auto">
       <div className="fade-in-bottom">
-        <div className="h-full text-white flex flex-col p-6 lg:p-6">
+        <div className="h-full text-white flex flex-col p-2 lg:p-6">
           <h1 className="text-3xl py-2 md:text-4xl font-bold bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 bg-clip-text text-transparent mb-4">
             My Projects
           </h1>
 
           {!openedProject ? (
             <>
-              <div className="flex flex-wrap gap-3 mb-8">
+              <div className="flex flex-wrap gap-3 mb-8 fade-in-bottom">
                 {Projects.map((category, index) => (
                   <CategoryButton
                     key={index}
