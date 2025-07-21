@@ -6,11 +6,11 @@ import TechCard from './small-components/TechCard';
 
 export default function ProjectDetails({ project, onBack, type }) {
   return (
-    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-6 md:p-8 overflow-y-auto">
+    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-2 md:p-8 overflow-y-auto">
         <div className="fade-in-left">
-            <div className="h-full text-white flex flex-col p-5 md:p-5 max-w-7xl mx-auto">
+            <div className="h-full text-white flex flex-col p-5 max-md:p-0 max-w-7xl mx-auto">
                 <button onClick={onBack} className="mb-8 flex items-center gap-3 text-red-500 hover:text-white group"><FontAwesomeIcon icon={faArrowLeft} /> Back to Projects</button>
-                <div className="flex flex-col lg:flex-row gap-8">
+                <div className="flex flex-col lg:flex-row gap-8 max-mad:gap-4">
                     <div className="lg:w-[50%] space-y-6">
                         <div className="relative rounded-2xl overflow-hidden border border-white/10">
                         <img src={project.image} alt="" className="w-auto h-auto"/>
@@ -42,14 +42,14 @@ export default function ProjectDetails({ project, onBack, type }) {
                             </h2>
                             <div className='h-[6px] w-16 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 rounded-full mb-4'></div>
                         </div>
-                        <div className='bg-gray-900/30 p-6 rounded-xl backdrop-blur-sm border border-gray-700/30'>
+                        <div className='bg-gray-900/30 p-6 max-md:p-2 rounded-xl backdrop-blur-sm border border-gray-700/30'>
                             <h3 className='text-xl font-semibold mb-3 text-orange-400 flex items-center gap-2'>
                                 <div className='w-2 h-2 rounded-full bg-orange-200 animate-pulse'></div>
                                 Description
                             </h3>
                             <p className='text-gray-300 leading-relaxed whitespace-pre-line'>{project.description}</p>
                         </div>
-                        <div className='bg-gray-900/30 p-6 rounded-xl backdrop-blur-sm border border-gray-700/30'>
+                        <div className='bg-gray-900/30 p-6 max-md:p-2 rounded-xl backdrop-blur-sm border border-gray-700/30'>
                             <h3 className='text-xl font-semibold mb-3 text-orange-400 flex items-center gap-2'>
                                 <div className='w-2 h-2 rounded-full bg-orange-200 animate-pulse'></div>
                                 Technologies
