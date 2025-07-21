@@ -6,7 +6,7 @@ import TechCard from './small-components/TechCard';
 
 export default function ProjectDetails({ project, onBack, type }) {
   return (
-    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-2 md:p-8 overflow-y-auto">
+    <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-2 md:p-8 overflow-y-auto fade-in-left">
         <div className="fade-in-left">
             <div className="h-full text-white flex flex-col p-5 max-md:p-0 max-w-7xl mx-auto">
                 <button onClick={onBack} className="mb-8 flex items-center gap-3 text-red-500 hover:text-white group"><FontAwesomeIcon icon={faArrowLeft} /> Back to Projects</button>
