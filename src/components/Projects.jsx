@@ -14,7 +14,7 @@ export default function ProjectsScreen() {
     <div className="flex-1 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-700 p-2 md:p-8 overflow-y-auto">
       <div className="fade-in-bottom">
         <div className="h-full text-white flex flex-col p-2 lg:p-6">
-          <h1 className="text-3xl py-2 md:text-4xl font-bold bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 bg-clip-text text-transparent mb-4">
+          <h1 className="text-3xl py-2 md:text-4xl max-md:p-2 font-bold bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 bg-clip-text text-transparent mb-4">
             My Projects
           </h1>
 
