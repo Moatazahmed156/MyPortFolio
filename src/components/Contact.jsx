@@ -22,7 +22,7 @@ export default function Contact() {
                 <InputField label="Message" isTextArea={true} name="message" />
                 <button
                 type="submit"
-                className="w-full mt-3 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-white py-3 px-5 rounded-lg shadow-md hover:shadow-indigo-500/20 transition-all duration-300 font-medium flex items-center justify-center gap-2"
+                className="w-full mt-3 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-white py-3 px-5 rounded-lg shadow-md hover:shadow-yellow-500/50 transition-all duration-300 font-medium flex items-center justify-center gap-2"
                 >
                 Send Message <FontAwesomeIcon icon={faPaperPlane} />
                 </button>
