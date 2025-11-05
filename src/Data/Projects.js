@@ -28,7 +28,7 @@ export const Projects = [
                 name: "AlgoRhythm",
                 repo: "https://github.com/Moatazahmed156/Sorting-Algorithms-Visualizer",
                 demo: "https://bespoke-valkyrie-d5f1c9.netlify.app/",
-                description: "This Sorting Algorithm Visualizer is an interactive web application built with React and Tailwind CSS to demystify complex computer science concepts. It provides a clear, educational, and real-time animation of 5 common sorting algorithms (Bubble, Selection, Insertion, Merge, and Quick Sort). Key features include full animation controls (play, pause, speed, array size), real-time performance metrics (comparisons, swaps, time), a live code display, and a fully responsive design that adapts to all devices with both light and dark modes. The project's core is an animation engine that uses React hooks to process a generated array of sorting "steps," demonstrating a deep dive into state management, asynchronous logic, and building a complex, interactive UI.",
+                description: "This project brings complex sorting algorithms (Bubble, Selection, Insertion, Merge, and Quick Sort) to life. I re-engineered these algorithms not just to sort, but to generate a 'step-by-step' animation sequence of their logic. A custom visualization engine then translates this sequence into a live, frame-by-frame animation, showing exactly how data is moved. The app provides real-time performance stats (comparisons, swaps, time) and interactive controls, demonstrating a practical mastery of algorithm analysis and dynamic state visualization.",
                 image: Algo,
                 tech: ["React" , "State Handler", "Tailwind CSS" , "Algorithms" , "Animation" ]
             },
