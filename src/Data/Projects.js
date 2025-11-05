@@ -19,33 +19,18 @@ import Bank from "../assets/projects/pp9.png"
 import loop from "../assets/projects/ppp1.png"
 import tic from "../assets/projects/ppp2.png"
 import book from "../assets/projects/ppp3.png"
+import Algo from "../assets/projects/ppp4.png"
 export const Projects = [
     {
         type: "Front-End",
         list: [
             {
-                name: "Courses Form",
-                repo: "https://github.com/Moatazahmed156/DevHub-Form",
-                demo: "https://keen-khapse-cda7d1.netlify.app/",
-                description: "An organized and user-friendly form for students to register for upcoming courses at DevHub'25. Participants can enter their name, contact details, university, level, and course preferences. After submission, users are reminded to check their email for confirmation and updates. Built with clarity and accessibility in mind to ensure a smooth registration experience.",
-                image: Form,
-                tech: ["React" , "React Hooks", "Tailwind CSS" , "API" , "Axios" ]
-            },
-            {
-                name: "Student DashBoard",
-                repo: "https://github.com/Moatazahmed156/Students-DashBoard",
-                demo: "https://rococo-hamster-cee5a3.netlify.app/",
-                description: "A simple and efficient React dashboard that displays a list of all students with their details. Easily edit or delete student information through a clean, user-friendly interface. Perfect for managing student records in schools, academies, or training centers.",
-                image: Student,
-                tech: ["React" , "React Hooks", "Tailwind CSS" , "API" , "Axios" , "Authorization" , "SPA"]
-            },
-            {
-                name: "Score Board",
-                repo: "https://github.com/Moatazahmed156/Start-Course",
-                demo: "https://storied-pudding-9fff0f.netlify.app/",
-                description: "A sleek and intuitive React app that displays students' scores in a dynamic leaderboard format. View and compare points easily to track performance, progress, and achievements in real time. Ideal for classrooms, competitions, or academic platforms.",
-                image: Score,
-                tech: ["React" , "React Hooks", "Tailwind CSS" , "API" , "Axios" , "SPA"]
+                name: "AlgoRhythm",
+                repo: "https://github.com/Moatazahmed156/Sorting-Algorithms-Visualizer",
+                demo: "https://bespoke-valkyrie-d5f1c9.netlify.app/",
+                description: "This Sorting Algorithm Visualizer is an interactive web application built with React and Tailwind CSS to demystify complex computer science concepts. It provides a clear, educational, and real-time animation of 5 common sorting algorithms (Bubble, Selection, Insertion, Merge, and Quick Sort). Key features include full animation controls (play, pause, speed, array size), real-time performance metrics (comparisons, swaps, time), a live code display, and a fully responsive design that adapts to all devices with both light and dark modes. The project's core is an animation engine that uses React hooks to process a generated array of sorting "steps," demonstrating a deep dive into state management, asynchronous logic, and building a complex, interactive UI.",
+                image: Algo,
+                tech: ["React" , "State Handler", "Tailwind CSS" , "Algorithms" , "Animation" ]
             },
             {
                 name: "Investment Calculator",
