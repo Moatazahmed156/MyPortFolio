@@ -180,6 +180,10 @@ export const Projects = [
             },
         ]
     },
+    {
+        type: "Data Analysis",
+        list: []
+    },
 ]
 
 const SecProject = [
