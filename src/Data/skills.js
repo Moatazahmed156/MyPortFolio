@@ -108,6 +108,46 @@ export const Technologies = [
         ]
     },
     {
+        name: "Data Analysis",
+        skills: [
+            {
+                title: "Power BI",
+                logo: "https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000"
+            },
+            {
+                title: "Tableau",
+                logo: "https://img.icons8.com/?size=100&id=TH2qcEeVxMYI&format=png&color=000000"
+            },
+            {
+                title: "Excel",
+                logo: "https://img.icons8.com/?size=100&id=BEMhRoRy403e&format=png&color=000000"
+            },
+            {
+                title: "SQL Server",
+                logo: "https://icon.icepanel.io/Technology/svg/Microsoft-SQL-Server.svg"
+            },
+            {
+                title: "Jupyter",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+            },
+            {
+                title: "NumPy",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+            },
+            {
+                title: "Pandas",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+            },
+            {
+                title: "Matplotlib",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+            },
+            {
+                title: "Seaborn",
+            }
+        ]
+    },
+    {
         name: "Extra Skills",
         skills: [
             {

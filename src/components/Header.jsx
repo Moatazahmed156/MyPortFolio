@@ -29,7 +29,7 @@ export default function Header(){
             </div>
             <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 rounded-xl blur opacity-0"></div>
-                <a href="https://drive.google.com/file/d/1Pbr9zigb7Mekcb_Gj0fOgRwUhjbzzvx2/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+                <a href="https://drive.google.com/file/d/1EofDoYhoNJsfNOQYD8JPtcUHFs0uXNOi/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                 className="relative bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-white px-4 py-2 sm:px-6 sm:py-2.5 flex items-center gap-2 rounded-xl shadow-lg hover:scale-105 transition-all duration-300">
                 <FontAwesomeIcon icon={faDownload} className="text-xl text-white max-sm:hidden" />
                 <span className="font-medium text-sm sm:text-base">Resume</span>

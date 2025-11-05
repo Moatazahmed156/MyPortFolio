@@ -59,12 +59,12 @@ export default function ProjectDetails({ project, onBack, type }) {
                             </div>
                         </div>
                         <div className='flex flex-col sm:flex-row gap-4 pt-2'>
-                            <a href={project.repo} target='_blank' className='flex-1 flex items-center justify-center gap-3 bg-gray-800 hover:bg-gray-700 text-white px-6 py-3.5 rounded-xl shadow-lg transition-all duration-300 border border-gray-700 hover:border-gray-600'>
+                            {project.repo && <a href={project.repo} target='_blank' className='flex-1 flex items-center justify-center gap-3 bg-gray-800 hover:bg-gray-700 text-white px-6 py-3.5 rounded-xl shadow-lg transition-all duration-300 border border-gray-700 hover:border-gray-600'>
                                <FontAwesomeIcon icon={faGithub} /> View Code
-                            </a>
-                            <a href={project.demo} target='_blank' className='flex-1 flex items-center justify-center gap-3 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-white px-6 py-3.5 rounded-xl shadow-lg hover:shadow-yellow-500/50 transition-all duration-300'>
+                            </a>}
+                            {project.demo && <a href={project.demo} target='_blank' className='flex-1 flex items-center justify-center gap-3 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-white px-6 py-3.5 rounded-xl shadow-lg hover:shadow-yellow-500/50 transition-all duration-300'>
                                 <FontAwesomeIcon icon={faArrowRight} /> Live Demo
-                            </a>
+                            </a>}
                         </div>
                     </div>
                 </div>

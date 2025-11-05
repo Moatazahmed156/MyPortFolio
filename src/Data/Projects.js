@@ -20,9 +20,15 @@ import loop from "../assets/projects/ppp1.png"
 import tic from "../assets/projects/ppp2.png"
 import book from "../assets/projects/ppp3.png"
 import Algo from "../assets/projects/ppp4.png"
+import cafe from "../assets/projects/D1.png"
+import Goals from "../assets/projects/D2.png"
+import Super from "../assets/projects/D3.png"
+import Titanic from "../assets/projects/D4.png"
+import Chinook from "../assets/projects/D5.png"
+import Olist from "../assets/projects/D6.jpeg"
 export const Projects = [
     {
-        type: "Front-End",
+        type: "Front-End", 
         list: [
             {
                 name: "AlgoRhythm",
@@ -182,7 +188,50 @@ export const Projects = [
     },
     {
         type: "Data Analysis",
-        list: []
+        list: [
+            {
+                name: "Cafe Sales",
+                demo: "https://www.linkedin.com/posts/moataz-ahmed-b02438255_dataanalysis-excel-dashboard-activity-7368955801425690624-k7ZN",
+                description: "An interactive Excel dashboard that visualizes coffee sales performance, including total revenue, cups sold, and best-selling coffee types. The project features dynamic charts and slicers for filtering by coffee type and size, along with trend analysis for monthly sales and revenue distribution.",
+                image: cafe,
+                tech: ["Excel" , "Pivot Table", "Power Query" , "Visual Basic" ]
+            },
+            {
+                name: "Brazilian E-Commerce Public Dataset",
+                demo: "https://drive.google.com/drive/folders/1vAXkNeu7msFWyhzh6EFGz6xKwwE-NTMo",
+                description: "PowerBi Analysis of Brazilian E-Commerce public dataset, including sales performance by product, category, and customer demographics. Utilizes Power BI features such as data modeling, DAX calculations, and visualizations to extract insights and trends from the e-commerce data.",
+                image: Olist,
+                tech: ["Power Bi" , "Data Modeling", "DAX", "Visualizations"]
+            },
+            {
+                name: "SuperStore Sales",
+                demo: "https://www.linkedin.com/posts/moataz-ahmed-b02438255_elevvo-internship-excel-activity-7381322299003613184-uk-A",
+                description: "An interactive Excel dashboard visualizing sales performance from 2015 to 2018, tracking revenue, orders, and customer insights. Includes detailed analysis by category, region, and sub-category, highlighting top-performing states, customers, and monthly sales trends.",
+                image: Super,
+                tech: ["Excel" , "Pivot Table", "Power Query", "Power Pivot"]
+            },
+            {
+                name: "Titanic Survival Analysis",
+                demo: "https://drive.google.com/drive/folders/1xgTHxn6bBj07hK2S_N8mb6EROoMqiHjr",
+                description: "A python Analysis of Titanic passenger data, including survival rates by class, gender, and age. Utilizes Pandas for data manipulation and Matplotlib/Seaborn for visualizations to uncover patterns and insights about the tragic event.",
+                image: Titanic,
+                tech: ["Python" , "Pandas", "NumPy", "Matplotlib", "Seaborn"]
+            },
+            {
+                name: "Chinook Database Analysis",
+                demo: "https://drive.google.com/drive/folders/19EkjcvLpatwwHA6mqUN24Dl0gTuqnWZM",
+                description: "A SQL Analysis of Chinook database, including sales performance by artist, album, and customer demographics. Utilizes complex SQL queries to extract insights and trends from the music store data.",
+                image: Chinook,
+                tech: ["SQL" , "SQLite", "Jupyter Notebook", "Python"]
+            },
+            {
+                name: "C.Ronaldo Goals",
+                demo: "https://www.linkedin.com/posts/moataz-ahmed-b02438255_excel-powerquery-powerpivot-activity-7378028987748409346-jdKx",
+                description: "An interactive Excel dashboard that visualizes C.Ronaldo's goals performance, including total goals, assists, and best matches. The project features dynamic charts and slicers for filtering by season and competition, along with trend analysis for monthly goals and assists distribution.",
+                image: Goals,
+                tech: ["Excel" , "Pivot Table", "Power Query" ]
+            },
+        ]
     },
 ]
 
