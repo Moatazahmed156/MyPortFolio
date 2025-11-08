@@ -26,6 +26,7 @@ import Super from "../assets/projects/D3.png"
 import Titanic from "../assets/projects/D4.png"
 import Chinook from "../assets/projects/D5.png"
 import Olist from "../assets/projects/D6.jpeg"
+import CMDI from "../assets/projects/D7.png"
 export const Projects = [
     {
         type: "Front-End", 
@@ -202,6 +203,14 @@ export const Projects = [
                 description: "PowerBi Analysis of Brazilian E-Commerce public dataset, including sales performance by product, category, and customer demographics. Utilizes Power BI features such as data modeling, DAX calculations, and visualizations to extract insights and trends from the e-commerce data.",
                 image: Olist,
                 tech: ["Power Bi" , "Data Modeling", "DAX", "Visualizations"]
+            },
+            {
+                name: "Cairo-Metro-Data-Intelligence",
+                demo: "https://gamma.app/docs/Cairo-Metro-Data-Intelligence-cxwt7k739wib0nn",
+                repo: "https://github.com/Moatazahmed156/Cairo-Metro-Data-Intelligence",
+                description: "The Cairo Metro Data Analysis & Visualization project provides deep insights into Cairo’s metro system using Python, Pandas, NumPy, Matplotlib, Seaborn, and Folium. It analyzes passenger trends, revenue patterns, station performance, and service reliability through clear visualizations and interactive maps. The project highlights time-based passenger behaviors, identifies crowded and high-performing stations, and tracks service issues over time. An interactive Folium map displays stations, lines, and performance metrics for better spatial understanding. Overall, it offers a powerful data-driven perspective to support metro management and urban planning decisions.",
+                image: CMDI,
+                tech: ["Python" , "Seaborn", "Matplotlib", "pandas", "Folium", "NumPy", "Jupyter Notebook"]
             },
             {
                 name: "SuperStore Sales",
