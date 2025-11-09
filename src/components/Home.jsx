@@ -20,7 +20,7 @@ export default function Home(){
                         </span>
                     </h1>
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 text-[1.3rem] font-medium flex items-center">
-                        Full-Stack Developer | React.js | Node.js | React Native | Flutter | Problem Solving
+                        MERN-Stack Developer | Data Analysis | Flutter Development | Problem Solving
                     </p>
                     <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-lg mx-auto lg:mx-0 bg-gray-900/30 p-4 rounded-lg border border-gray-700/30">
                         Hi, I'm Moataz Ahmed, a passionate Full-Stack Developer specializing in modern web and mobile technologies.
