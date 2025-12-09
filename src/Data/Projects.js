@@ -27,10 +27,19 @@ import Titanic from "../assets/projects/D4.png"
 import Chinook from "../assets/projects/D5.png"
 import Olist from "../assets/projects/D6.jpeg"
 import CMDI from "../assets/projects/D7.png"
+import Algo2 from "../assets/projects/ppp5.png"
 export const Projects = [
     {
         type: "Front-End", 
         list: [
+            {
+                name: "Algorithm Visualizer",
+                repo: "https://github.com/Moatazahmed156/Search-Graph-Visualizer",
+                demo: "https://searchandgaph.netlify.app/",
+                description: "The Search & Graph Algorithm Visualizer is an interactive React application designed to bridge the gap between theoretical code and visual execution by animating fundamental computer science algorithms in real-time. It features dual visualization modes—dynamic bar charts for Linear and Binary search, and a fully manipulatable grid for Breadth-First (BFS) and Depth-First (DFS) graph traversals—allowing users to intuitively explore algorithmic logic through custom data inputs, interactive wall drawing, and adjustable playback speeds. Built with responsive design principles and live complexity analytics, this tool serves as an educational sandbox for developers and students to experiment with pathfinding strategies and search efficiency in a tangible, visual environment.",
+                image: Algo2,
+                tech: ["React" , "State Handler", "Tailwind CSS" , "Algorithms" , "Animation" ]
+            },
             {
                 name: "AlgoRhythm",
                 repo: "https://github.com/Moatazahmed156/Sorting-Algorithms-Visualizer",
