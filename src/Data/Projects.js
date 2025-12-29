@@ -28,6 +28,7 @@ import Chinook from "../assets/projects/D5.png"
 import Olist from "../assets/projects/D6.jpeg"
 import CMDI from "../assets/projects/D7.png"
 import Algo2 from "../assets/projects/ppp5.png"
+import rct from "../assets/projects/ppp6.png"
 export const Projects = [
     {
         type: "Front-End", 
@@ -125,7 +126,7 @@ export const Projects = [
                 repo: "https://github.com/Moatazahmed156/React-Essentials",
                 demo: "https://famous-fenglisu-3d30e0.netlify.app/",
                 description: "A simple React application demonstrating core concepts such as components, props, state management, and event handling. This demo serves as a foundational example for beginners looking to understand the essentials of building applications with React.js.",
-                image: tic,
+                image: rct,
                 tech: ["React" , "State Handling" , "Tailwind CSS"]
             },
             {
