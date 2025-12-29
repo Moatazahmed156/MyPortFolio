@@ -121,6 +121,14 @@ export const Projects = [
                 tech: ["HTML" , "CSS" , "JS"]
             },
             {
+                name: "React Demo",
+                repo: "https://github.com/Moatazahmed156/React-Essentials",
+                demo: "https://famous-fenglisu-3d30e0.netlify.app/",
+                description: "A simple React application demonstrating core concepts such as components, props, state management, and event handling. This demo serves as a foundational example for beginners looking to understand the essentials of building applications with React.js.",
+                image: tic,
+                tech: ["React" , "State Handling" , "Tailwind CSS"]
+            },
+            {
                 name: "Tic Tak Toe",
                 repo: "https://github.com/Moatazahmed156/Tic-Tak-Toe",
                 demo: "https://moatazahmed156.github.io/Tic-Tak-Toe/",
