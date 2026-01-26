@@ -29,6 +29,8 @@ import Olist from "../assets/projects/D6.jpeg"
 import CMDI from "../assets/projects/D7.png"
 import Algo2 from "../assets/projects/ppp5.png"
 import rct from "../assets/projects/ppp6.png"
+import xiaomi from "../assets/projects/ppp7.png"
+import IR from "../assets/projects/ppp8.png"
 export const Projects = [
     {
         type: "Front-End", 
@@ -159,8 +161,23 @@ export const Projects = [
         type: "Full-Stack",
         list: [
             {
+                name: "Xiaomi Giveaway",
+                demo: "https://xiaomi-registration.netlify.app/",
+                description: "A high-performance, Full-Stack web application designed for live-stage events, inspired by the Xiaomi aesthetic. The platform allows hundreds of attendees to register via their mobile devices, receive unique entry codes automatically via WhatsApp, and participate in a cinematic, real-time 'Lucky Draw' animated on a main stage screen.",
+                image: xiaomi,
+                tech: ["React" , "Axios" , "SPA" ,"Node.js", "Express", "MongoDB", "Whatsapp-web", "ngrok", "Deployments"]
+            },
+            {
+                name: "Medical Information Retrieval System",
+                repo: "https://github.com/Moatazahmed156/MedSearch-Medical-IR",
+                demo: "https://www.linkedin.com/posts/moataz-ahmed-b02438255_informationretrieval-searchengine-computerscience-activity-7417455165626130432-SRSR/",
+                description: "MedSearch is a medical search engine indexing 17,000+ PubMed papers using a Vector Space Model. Built with Python and Flask, it features a full retrieval pipeline—from automated scraping to custom positional indexing—supporting Boolean logic and exact phrase matching. By utilizing TF-IDF and Cosine Similarity, MedSearch provides highly relevant research insights with sub-second retrieval speeds.",
+                image: IR,
+                tech: ["Python" , "Flask" , "Inverted Index Algorithm", "TF-IDF", "API", "Data Cleaning", "HTML", "CSS"]
+            },
+            {
                 name: "WatchWise App",
-                repo: "hhttps://github.com/Moatazahmed156/WatchWise_MoviesApp",
+                repo: "https://github.com/Moatazahmed156/WatchWise_MoviesApp",
                 demo: "https://drive.google.com/drive/folders/1dlSG_pXcROeynIG0tAfarSpxftr0uOLb",
                 description: "Watch Wise is a movie discovery app that helps users explore films, track favorites, and get personalized recommendations based on their preferences. The app provides a seamless user experience with features like search, genre filtering, watchlists, and trending movies, making it easy to find the perfect movie for any mood. Its goal is to make movie selection smarter and more enjoyable.",
                 image: WatchWise,
