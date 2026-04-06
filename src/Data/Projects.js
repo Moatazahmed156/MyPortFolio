@@ -95,9 +95,9 @@ export const Projects = [
                 name: "PlacePicker",
                 repo: "https://github.com/Moatazahmed156/PlacePicker-Reactjs",
                 demo: "https://reliable-kulfi-c1deaf.netlify.app/",
-                description: "A beautifully designed React app that lets you create a personalized collection of places you've visited or dream of exploring. Places are automatically sorted based on your current location from nearest to farthest making it easy to plan your next adventure. Discover, save, and visualize your travel inspirations in one elegant interface.",
+                description: "A beautifully designed React app that lets you create a personalized collection of places you've visited or dream of exploring stored in backend. Places are automatically sorted based on your current location from nearest to farthest making it easy to plan your next adventure. Discover, save, and visualize your travel inspirations in one elegant interface.  **It not run on demo but if you want to try it, Try it locally and don't forget to run the back end first to work correctly**",
                 image: places,
-                tech: ["React" , "React Hooks", "CSS" , "Local Storage" , "GeoLocation"]
+                tech: ["React" , "React Hooks", "CSS" , "API" , "GeoLocation", "Custom Hooks"]
             },
             {
                 name: "Memory Game",
