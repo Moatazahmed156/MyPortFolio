@@ -4,7 +4,7 @@ import { GitBranch, Link2, Mail, Code2, Trophy, Download, Eye, MessageCircle } f
 import { useTyping } from '../../hooks/useTyping';
 import personal from '../../data/personal.json';
 import social from '../../data/socialLinks.json';
-import me from "../../assets/me.png"
+import me from "/assets/me.png"
 function Particles() {
   const canvasRef = useRef(null);
 
