@@ -1,0 +1,19 @@
+{
+  "name": "Moataz Ahmed",
+  "title": "Software Engineer | Full Stack & Mobile Developer",
+  "tagline": "MERN Stack · Flutter · React Native · Problem Solver",
+  "bio": "I'm a passionate Software Engineer specializing in Full Stack and Mobile Development, focused on building scalable, high-performance, and user-centered applications. My journey began with competitive programming and problem solving through ECPC, which strengthened my analytical thinking and laid the foundation for developing real-world digital products using modern technologies.",
+   "about": "For me, programming is more than writing code — it’s about turning ideas into meaningful digital experiences. My journey started with problem solving and competitive programming, which shaped the way I think, learn, and build. Today, I focus on creating modern web and mobile applications with clean architecture, strong performance, and intuitive user experiences while continuously growing as a developer and problem solver.",
+  "careerGoals": "My goal is to become a software engineer who builds impactful products and continuously grows through real-world challenges. I’m passionate about learning, collaborating with ambitious teams, and creating scalable applications that combine innovation, performance, and great user experience.",
+  "availability": "Open to internships, freelance, and collaboration opportunities",
+  "location": "6th of October, Egypt",
+  "email": "moatazahmed696@email.com",
+  "phone": "+20 1551691666",
+  "cvUrl": "https://drive.google.com/file/d/1b28NI3XRbZh6jEqMB_ymHWvYaxvsh16q/view?usp=sharing",
+  "stats": {
+    "yearsExperience": 2,
+    "projectsCompleted": 30,
+    "technologiesLearned": 10,
+    "certificationsCount": 12
+  }
+}

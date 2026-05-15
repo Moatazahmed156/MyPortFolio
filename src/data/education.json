@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "institution": "Akhbar El-Yom Academy",
+    "degree": "Bachelor of Computer Science",
+    "field": "Computer Science",
+    "status": "In Progress",
+    "startYear": 2023,
+    "expectedGraduation": 2027,
+    "gpa": "3.4/4.0",
+    "relevantCourses": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Systems",
+      "Software Engineering",
+      "Computer Networks",
+      "Operating Systems",
+      "Artificial Intelligence",
+      "Mobile Application Development"
+    ],
+    "type": "university"
+  },
+  {
+    "id": 2,
+    "institution": "Digital Egypt Pioneers Initiative (DEPI)",
+    "degree": "Data Analysis Trainee",
+    "field": "Data Analysis & Business Intelligence",
+    "status": "Completed",
+    "startYear": "Jun 2025",
+    "expectedGraduation": "Dec 2025",
+    "relevantCourses": [
+      "Data Analysis using Python",
+      "SQL & Data Preparation",
+      "Power BI & Tableau",
+      "Data Visualization",
+      "Data Governance & Ethics",
+      "Business Intelligence & Reporting"
+    ],
+    "type": "training"
+  },
+  {
+    "id": 3,
+    "institution": "IBM / Coursera",
+    "degree": "Software Engineering ",
+    "field": "Software Engineering",
+    "status": "In Progress",
+    "startYear": 2026,
+    "expectedGraduation": 2026,
+    "relevantCourses": [
+      "Software Engineering Fundamentals",
+      "Version Control with Git & GitHub",
+      "Agile Development",
+      "Cloud Computing Basics",
+      "Software Development Lifecycle",
+      "Modern Development Practices"
+    ],
+    "type": "online"
+  }
+]

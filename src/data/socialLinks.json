@@ -1,0 +1,6 @@
+[
+  { "id": 1, "platform": "GitHub", "url": "https://github.com/Moatazahmed156", "icon": "GitBranch", "color": "#aa2411" },
+  { "id": 2, "platform": "LinkedIn", "url": "https://www.linkedin.com/in/moataz-ahmed-b02438255/", "icon": "Link2", "color": "#0A66C2" },
+  { "id": 3, "platform": "Email", "url": "mailto:moatazahmed696@email.com", "icon": "Mail", "color": "#EA4335" },
+  { "id": 5, "platform": "Codeforces", "url": "https://codeforces.com/profile/MoatazThabit", "icon": "Trophy", "color": "#1F8DD6" }
+]

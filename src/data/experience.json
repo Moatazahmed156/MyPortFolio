@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "role": "Full Stack Developer",
+    "company": "Freelance",
+    "type": "freelance",
+    "duration": "Jan 2026 – Present",
+    "description": "Developing modern full-stack web applications and scalable digital solutions for real clients across different industries.",
+    "responsibilities": [
+      "Built and deployed full-stack applications using the MERN stack",
+      "Developed authentication systems, dashboards, and role-based access control",
+      "Designed responsive and user-friendly interfaces using Tailwind CSS",
+      "Integrated REST APIs and managed backend services with Node.js and Express.js",
+      "Handled deployment and maintenance using platforms like Vercel and Render"
+    ],
+    "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "Tailwind CSS", "JWT", "Firebase"],
+    "achievements": [
+      "Successfully delivered multiple production-ready client projects",
+      "Improved application performance and responsiveness through optimization",
+      "Managed projects from planning and development to deployment"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Programming Instructor",
+    "company": "Algorithmics Cairo",
+    "type": "part-time",
+    "duration": "Dec 2025 – Present",
+    "description": "Teaching programming and technology concepts to students through practical and interactive learning experiences.",
+    "responsibilities": [
+      "Delivered programming courses for students aged 7–18",
+      "Taught Python, Web Development, and Digital Literacy concepts",
+      "Mentored students through hands-on projects and coding exercises",
+      "Adapted technical explanations for different age groups and learning styles",
+      "Encouraged logical thinking and problem-solving skills through interactive activities"
+    ],
+    "techStack": ["Python", "JavaScript", "HTML", "CSS", "Problem Solving", "Scratch"],
+    "achievements": [
+      "Successfully mentored students across multiple technical tracks",
+      "Helped students strengthen programming and logical thinking skills",
+      "Received positive feedback for engaging teaching style"
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Technical Head",
+    "company": "180 Daraga",
+    "type": "leadership",
+    "duration": "Nov 2024 – Present",
+    "description": "Leading technical operations and managing development teams across web, mobile, and data-focused projects.",
+    "responsibilities": [
+      "Managed and mentored a technical team across multiple development tracks",
+      "Supervised the development and deployment of technical products and platforms",
+      "Established development workflows and coding standards",
+      "Planned technical operations for community initiatives and events",
+      "Collaborated with team members to improve productivity and project delivery"
+    ],
+    "techStack": ["React.js", "TailwindCSS", "Node.js", "MySQL", "Git"],
+    "achievements": [
+      "Promoted from Technical Member to Technical Head",
+      "Led the development of multiple technical products and initiatives",
+      "Improved team collaboration and technical workflow organization"
+    ]
+  },
+  {
+    "id": 4,
+    "role": "Data Analyst Trainee",
+    "company": "Digital Egypt Pioneers Initiative (DEPI)",
+    "type": "internship",
+    "duration": "Jun 2025 – Dec 2025",
+    "description": "Worked on data analysis, visualization, and business intelligence projects using modern analytical tools and techniques.",
+    "responsibilities": [
+      "Analyzed datasets using Python, SQL, and Excel",
+      "Built dashboards and reports using Power BI and Tableau",
+      "Performed data cleaning and quality validation",
+      "Identified trends and generated actionable insights",
+      "Conducted a graduation project focused on Cairo Metro data analysis"
+    ],
+    "techStack": ["Python", "SQL", "Power BI", "Tableau", "Excel"],
+    "achievements": [
+      "Developed interactive dashboards and analytical reports",
+      "Completed a full data analysis case study from acquisition to presentation",
+      "Delivered insights for optimizing metro congestion and urban mobility"
+    ]
+  },
+  {
+    "id": 5,
+    "role": "Data Analysis Intern",
+    "company": "Elevvo Pathways",
+    "type": "internship",
+    "duration": "Oct 2025 – Nov 2025",
+    "description": "Contributed to data analysis and visualization tasks to support data-driven decision making.",
+    "responsibilities": [
+      "Collected, cleaned, and analyzed datasets using Python and SQL",
+      "Built visual dashboards and reports using Power BI and Tableau",
+      "Extracted insights and patterns from raw datasets",
+      "Presented findings clearly to technical and non-technical audiences",
+      "Collaborated with mentors and trainees on analytical tasks"
+    ],
+    "techStack": ["Python", "SQL", "Power BI", "Tableau", "Excel"],
+    "achievements": [
+      "Built multiple analytical dashboards and reports",
+      "Improved understanding of business intelligence workflows",
+      "Strengthened practical data analysis and visualization skills"
+    ]
+  },
+  {
+    "id": 6,
+    "role": "C++ & Frontend Instructor",
+    "company": "Google Developer Student Clubs (GDSC)",
+    "type": "community",
+    "duration": "Nov 2024 – May 2025",
+    "description": "Delivered technical sessions and mentored students in problem solving and frontend web development.",
+    "responsibilities": [
+      "Taught C++ programming and problem-solving fundamentals",
+      "Delivered frontend development sessions using React.js",
+      "Mentored students in web development and coding practices",
+      "Created technical learning materials and practical exercises",
+      "Supported workshops and community technical events"
+    ],
+    "techStack": ["C++", "React.js", "JavaScript", "Tailwind CSS", "Problem Solving"],
+    "achievements": [
+      "Helped students improve their programming and frontend skills",
+      "Contributed to growing the technical community داخل GDSC",
+      "Delivered engaging technical workshops and sessions"
+    ]
+  }
+]

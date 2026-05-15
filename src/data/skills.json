@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "color": "#38BDF8",
+      "skills": [
+        { "name": "React.js", "level": 90, "icon": "⚛️" },
+        { "name": "Next.js", "level": 80, "icon": "▲" },
+        { "name": "TypeScript", "level": 75, "icon": "🔷" },
+        { "name": "Tailwind CSS", "level": 92, "icon": "🎨" },
+        { "name": "Redux", "level": 78, "icon": "🔄" },
+        { "name": "HTML/CSS", "level": 95, "icon": "🌐" }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "color": "#34D399",
+      "skills": [
+        { "name": "Node.js", "level": 85, "icon": "🟢" },
+        { "name": "Express.js", "level": 83, "icon": "⚡" },
+        { "name": "MongoDB", "level": 80, "icon": "🍃" },
+        { "name": "MySQL", "level": 80, "icon": "🛢️" },
+        { "name": "Firebase", "level": 75, "icon": "🔥" },
+        { "name": "REST APIs", "level": 88, "icon": "🔗" },
+        { "name": "GraphQL", "level": 65, "icon": "◈" }
+      ]
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "color": "#A78BFA",
+      "skills": [
+        { "name": "Flutter", "level": 82, "icon": "🦋" },
+        { "name": "Dart", "level": 80, "icon": "🎯" },
+        { "name": "BLoC", "level": 80, "icon": "📦" }
+      ]
+    },
+    {
+      "id": "cs",
+      "label": "CS Fundamentals",
+      "color": "#FB923C",
+      "skills": [
+        { "name": "Data Structures & Algorithms", "level": 88, "icon": "🧮" },
+        { "name": "OOP Principles", "level": 90, "icon": "🏗️" },
+        { "name": "Problem Solving", "level": 85, "icon": "🧩" },
+        { "name": "System Design", "level": 70, "icon": "🗺️" }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Tools & DevOps",
+      "color": "#F472B6",
+      "skills": [
+        { "name": "Git & GitHub", "level": 90, "icon": "🐙" },
+        { "name": "Docker", "level": 68, "icon": "🐳" },
+        { "name": "Figma", "level": 75, "icon": "🎭" },
+        { "name": "Postman", "level": 85, "icon": "📮" },
+        { "name": "Linux", "level": 72, "icon": "🐧" }
+      ]
+    }
+  ]
+}

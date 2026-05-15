@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "ICPC Honorable Mention",
+    "issuer": "ICPC – International Collegiate Programming Contest",
+    "date": "2023",
+    "category": "competition",
+    "description": "Received honorable mention at the Egypt ICPC Collegiate Programming Contest for outstanding performance in algorithmic problem solving.",
+    "icon": "Trophy"
+  },
+  {
+    "id": 2,
+    "title": "Full Stack Web Development Certificate",
+    "issuer": "Route Academy",
+    "date": "2023",
+    "category": "certification",
+    "description": "Completed an intensive MERN stack bootcamp covering advanced JavaScript, React, Node.js, and MongoDB.",
+    "icon": "Award",
+    "credentialUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "Flutter & Dart — Complete Developer",
+    "issuer": "Udemy",
+    "date": "2023",
+    "category": "certification",
+    "description": "Mastered Flutter and Dart for cross-platform mobile development including Firebase integration and state management.",
+    "icon": "Award",
+    "credentialUrl": "#"
+  },
+  {
+    "id": 4,
+    "title": "React Native Specialization",
+    "issuer": "Meta / Coursera",
+    "date": "2022",
+    "category": "certification",
+    "description": "Completed Meta's official React Native specialization covering mobile development best practices and native APIs.",
+    "icon": "Award",
+    "credentialUrl": "#"
+  },
+  {
+    "id": 5,
+    "title": "300+ Problems Solved",
+    "issuer": "LeetCode & Codeforces",
+    "date": "2022 – Present",
+    "category": "achievement",
+    "description": "Solved 300+ algorithmic problems across LeetCode and Codeforces covering arrays, trees, graphs, dynamic programming, and more.",
+    "icon": "Code2",
+    "stats": { "leetcode": 180, "codeforces": 120 }
+  },
+  {
+    "id": 6,
+    "title": "Google IT Support Certificate",
+    "issuer": "Google / Coursera",
+    "date": "2022",
+    "category": "certification",
+    "description": "Completed Google's IT Support professional certificate covering networking, operating systems, and troubleshooting.",
+    "icon": "Award",
+    "credentialUrl": "#"
+  },
+  {
+    "id": 7,
+    "title": "GDSC Hackathon Top 3",
+    "issuer": "Google Developer Student Clubs",
+    "date": "2023",
+    "category": "competition",
+    "description": "Placed in the top 3 of an internal GDSC hackathon, building a community impact solution in 24 hours.",
+    "icon": "Zap"
+  },
+  {
+    "id": 8,
+    "title": "JavaScript Algorithms & Data Structures",
+    "issuer": "freeCodeCamp",
+    "date": "2022",
+    "category": "certification",
+    "description": "Earned the freeCodeCamp certification in JavaScript Algorithms and Data Structures.",
+    "icon": "Award",
+    "credentialUrl": "#"
+  }
+]

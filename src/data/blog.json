@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Building Scalable React Apps: Patterns I Wish I Knew Earlier",
+    "slug": "scalable-react-patterns",
+    "category": "React",
+    "excerpt": "After building multiple production React apps, I've collected the architectural patterns and folder structures that make scaling painless. From compound components to custom hooks — here's what actually works.",
+    "content": "Building scalable React applications requires thinking beyond just 'making it work'...",
+    "readTime": "8 min read",
+    "date": "2024-03-15",
+    "tags": ["React", "Architecture", "Best Practices", "JavaScript"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Flutter vs React Native in 2024: An Honest Comparison",
+    "slug": "flutter-vs-react-native-2024",
+    "category": "Mobile",
+    "excerpt": "After building real apps in both Flutter and React Native, I break down the actual differences in developer experience, performance, ecosystem, and when to choose which.",
+    "content": "The Flutter vs React Native debate is one of the most common questions...",
+    "readTime": "10 min read",
+    "date": "2024-02-20",
+    "tags": ["Flutter", "React Native", "Mobile", "Comparison"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Clean Code in JavaScript: Beyond the Basics",
+    "slug": "clean-code-javascript",
+    "category": "Clean Code",
+    "excerpt": "Most clean code tutorials stop at naming conventions. This guide goes deeper — covering SOLID principles, design patterns, and refactoring strategies with real JavaScript examples.",
+    "content": "Clean code is not just about naming variables well...",
+    "readTime": "12 min read",
+    "date": "2024-01-10",
+    "tags": ["JavaScript", "Clean Code", "SOLID", "Refactoring"],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Mastering REST APIs: Design Principles That Scale",
+    "slug": "rest-api-design",
+    "category": "APIs",
+    "excerpt": "From proper HTTP semantics to versioning strategies and error handling — the API design decisions that separate junior from senior developers.",
+    "content": "Designing a REST API that scales gracefully is harder than it looks...",
+    "readTime": "9 min read",
+    "date": "2023-12-05",
+    "tags": ["API", "Node.js", "Backend", "Design"],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Competitive Programming: My ICPC Journey",
+    "slug": "icpc-journey",
+    "category": "Competitive Programming",
+    "excerpt": "From zero to ICPC honorable mention — the problems I solved, the resources I used, and the mindset shifts that made the difference in competitive programming.",
+    "content": "Competitive programming changed how I think about code...",
+    "readTime": "7 min read",
+    "date": "2023-11-18",
+    "tags": ["ICPC", "Competitive Programming", "Algorithms", "C++"],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "State Management in React: When Context Isn't Enough",
+    "slug": "react-state-management",
+    "category": "React",
+    "excerpt": "A practical guide to choosing between Context API, Redux Toolkit, Zustand, and Jotai — with real benchmarks and use-case analysis.",
+    "content": "Choosing the right state management solution is one of the most consequential...",
+    "readTime": "11 min read",
+    "date": "2023-10-25",
+    "tags": ["React", "Redux", "State Management", "Zustand"],
+    "featured": false
+  }
+]
