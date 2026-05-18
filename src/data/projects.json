@@ -1,5 +1,77 @@
 [
   {
+  "id": 29,
+  "title": "MY-Lang Full IDE",
+  "slug": "my-lang-full-ide",
+  "category": "frontend",
+  "description": "A fully functional browser-based IDE for MY-Lang — a custom-designed programming language — featuring a complete 5-stage compiler pipeline built entirely in JavaScript and React.",
+  "longDescription": "MY-Lang Full IDE is one of the most technically ambitious projects you can build on the frontend: a custom programming language with its own compiler, running entirely in the browser with no backend. The language itself supports typed variables (number, text, boolean), arrays, if/else conditionals, while loops, arithmetic and logical operators, and single/multi-line comments. The compiler implements all five classical stages — Lexer (tokenization with line tracking and error recovery), Parser (recursive-descent producing a full AST), Semantic Analyzer (type checking, symbol table construction, and warning generation), Code Generator (emitting readable pseudo-assembly with labeled sections and HALT instructions), and Executor (AST-walking interpreter that runs the program and captures output). The IDE wraps this pipeline in a split-panel layout: a syntax-aware code editor on the left, and a six-tab diagnostics panel on the right exposing Tokens, Parser output, AST tree, Semantic analysis with a symbol table, Assembly view, and live Output. A step-through debugger mode lets users advance through each compiler stage individually, observing exactly what each pass produces. Eight built-in example programs — from Hello World to Bubble Sort and Fibonacci — let users explore the language immediately.",
+  "image": "/assets/projects/pppp2.png",
+  "techStack": ["React", "Vite", "JavaScript", "Compiler Design", "Lexer", "Recursive Descent Parser", "AST", "Semantic Analysis", "Code Generation", "AST Interpreter"],
+  "features": [
+    "Custom-designed MY-Lang with typed variables, arrays, loops, conditionals, and logical operators",
+    "Full 5-stage compiler: Lexer → Parser → Semantic Analyzer → Code Generator → Executor",
+    "Recursive-descent parser producing a complete Abstract Syntax Tree",
+    "Semantic analysis with symbol table, type checking, and warning system",
+    "Pseudo-assembly code generation with labeled sections and HALT instructions",
+    "AST-walking interpreter that executes MY-Lang programs live in the browser",
+    "Step-through debugger mode to advance through compiler stages one at a time",
+    "Six-tab diagnostics panel: Tokens, Parser, AST, Semantic, Assembly, and Output",
+    "8 built-in example programs including FizzBuzz, Fibonacci, Bubble Sort, and more"
+  ],
+  "challenges": "Designing and implementing a complete compiler pipeline from scratch in pure JavaScript — writing a hand-rolled recursive-descent parser, a symbol-table-based semantic analyzer, and an AST-walking executor — then wiring all five stages into a reactive IDE with step-through debugging, all running entirely client-side with zero backend.",
+  "githubUrl": "https://github.com/Moatazahmed156/MY-lang-Full-IDE",
+  "liveUrl": "https://serene-salamander-98464b.netlify.app/",
+  "featured": true,
+  "year": 2026
+},
+  {
+  "id": 30,
+  "title": "Career Expert System",
+  "slug": "career-expert-system",
+  "category": "frontend",
+  "description": "A rule-based expert system that maps user skills to career paths using a forward-chaining inference engine, delivering ranked matches with confidence scores and skill gap analysis.",
+  "longDescription": "The Career Expert System is a classic AI expert system built entirely in React, demonstrating how symbolic reasoning can be applied to career guidance. The knowledge base stores facts as typed triplets — has_skill and requires_skill relationships — modeled after Prolog-style logic. The forward-chaining inference engine evaluates each user's skills against every career's requirements in real time, computing a percentage confidence score, a ranked list of all career matches, matched strengths, and gaps to close. The dashboard features a two-panel Career Diagnostics view with a highlighted top recommendation card and a detailed ranked match table, alongside a dedicated Knowledge Base page that exposes the full fact database as an inspectable table — making the system's reasoning fully transparent. Built with React, Vite, and Tailwind CSS.",
+  "image": "/assets/projects/pppp1.png",
+  "techStack": ["React", "Vite", "Tailwind CSS", "Expert Systems", "Forward Chaining", "Knowledge Base", "Prolog"],
+  "features": [
+    "Forward-chaining inference engine that maps skills to careers in real time",
+    "Ranked career matches with percentage confidence scores",
+    "Matched strengths and skill gap breakdown per career",
+    "Highlighted top recommendation card with a progress bar",
+    "Inspectable Knowledge Base page exposing all facts as a structured table",
+    "Multi-user support with sidebar user selection"
+  ],
+  "challenges": "Implementing a forward-chaining inference engine in pure React using useMemo, so the reasoning reruns reactively on user selection without any backend — keeping the system transparent, fast, and fully client-side.",
+  "githubUrl": "https://github.com/Moatazahmed156/Career-Expert-System",
+  "liveUrl": "https://willowy-bienenstitch-a9ab6a.netlify.app/",
+  "featured": false,
+  "year": 2025
+},
+  {
+  "id": 31,
+  "title": "Personality Prediction Model",
+  "slug": "personality-prediction-model",
+  "category": "other",
+  "description": "A full-stack NLP application that predicts Myers-Briggs (MBTI) personality types from free-form text input using machine learning and natural language processing.",
+  "longDescription": "The Personality Prediction Model is an end-to-end NLP pipeline that classifies users into one of 16 MBTI personality types based on the way they write. The backend is a Flask API powered by a Logistic Regression model trained on a Kaggle MBTI dataset, with TF-IDF vectorization (5,000 features, bigrams) and an NLTK preprocessing pipeline covering lowercasing, URL removal, stopword filtering, and lemmatization. The React frontend features a dark-themed NLP Intelligence Dashboard where users type free-form text or pick from 20 curated example prompts, then receive an instant prediction with the MBTI type, archetype name, personality description, and model confidence score. The project covers the full ML lifecycle: data cleaning, feature engineering, model training, serialization with Pickle, and REST API serving with Flask-CORS.",
+  "image": "/assets/projects/ppp9.png",
+  "techStack": ["React", "Vite", "Tailwind CSS", "Python", "Flask", "Scikit-learn", "NLTK", "TF-IDF", "Logistic Regression", "Pickle"],
+  "features": [
+    "Predicts all 16 MBTI personality types from free-form text",
+    "NLP preprocessing pipeline: lowercasing, URL removal, stopword filtering, and lemmatization",
+    "TF-IDF vectorization with bigram support (5,000 features)",
+    "Confidence score returned alongside type, archetype name, and description",
+    "20 curated example prompts for instant exploration",
+    "Dark-themed React dashboard with real-time API integration"
+  ],
+  "challenges": "Building a robust NLP preprocessing pipeline that removes MBTI-type leakage from training text, then bridging the Python ML backend and React frontend through a CORS-enabled REST API with clean, structured prediction responses.",
+  "githubUrl": "https://github.com/Moatazahmed156/Personality-Prediction-Model-NLP",
+  "liveUrl": "",
+  "featured": false,
+  "year": 2026
+},
+  {
     "id": 1,
     "title": "Algorithm Visualizer",
     "slug": "algorithm-visualizer",
