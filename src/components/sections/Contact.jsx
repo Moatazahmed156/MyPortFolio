@@ -135,6 +135,7 @@ export default function Contact() {
             href={personal.cvUrl}
             download
             className="btn-primary"
+            target="_blank"
             style={{ fontSize: 15, padding: '14px 36px' }}
           >
             <Download size={18} />
